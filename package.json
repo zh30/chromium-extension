@@ -1,5 +1,5 @@
 {
-  "name": "page",
+  "name": "chromium-extension",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

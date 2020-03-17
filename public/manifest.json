@@ -1,0 +1,16 @@
+{
+  "name": "He",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A Chromium Extension to show the He's info.",
+  "icons": {
+    "16": "logo16x16.png",
+    "32": "logo32x32.png",
+    "48": "logo48x48.png",
+    "128": "logo128x128.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-G7fIiHIH/1N44nkIhnXzigjhe7Bn96/UzemTZg88swg='; object-src 'self'"
+}
