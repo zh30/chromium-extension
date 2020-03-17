@@ -10,7 +10,12 @@
     "128": "logo128x128.png"
   },
   "browser_action": {
-    "default_popup": "index.html"
+    "default_icon": {
+      "16": "logo16x16.png",
+      "32": "logo32x32.png",
+      "48": "logo48x48.png",
+      "128": "logo128x128.png"
+    }
   },
   "content_scripts": [
     {
@@ -19,5 +24,8 @@
       "js": ["/static/js/content.js"]
     }
   ],
+  "background": {
+    "scripts": ["/static/js/background.js"]
+  },
   "content_security_policy": "script-src 'self' 'sha256-G7fIiHIH/1N44nkIhnXzigjhe7Bn96/UzemTZg88swg='; object-src 'self'"
 }
